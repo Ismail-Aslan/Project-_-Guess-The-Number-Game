@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family:  cursive;
+        }
+        body{
+            background-image: url(./Project_001.png);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position:  top;
+        }
+        .heading {
+            margin: auto;
+            width: fit-content;
+        }
+        #results {
+            width: fit-content;
+            margin: auto;
+            text-align: center;
+        }
+        input {
+            border-radius: 5px;
+            border: 0;
+            height: 20px;
+
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            
+            width: 100%;
+            
+        }
+        h2,h3 {
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="heading">
+        <h1>Guess The Number (1 - 100)</h1>
+    </header>
+    <div id="results" name="sayi">
+        <input type="number" name="guessedNumber" id="guessedNumber" >
+        <button id="checkButton">CHECK</button>
+        
+    </div>
+    <footer>
+        <h2 id="hint">Write the number.</h2>
+        <h3 id="attemp"> </h3>
+    </footer>
+
+    <script>
+        
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
