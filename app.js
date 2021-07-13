@@ -1,5 +1,5 @@
 let randomNumber = Math.ceil((Math.random() * 100));
-console.log(randomNumber);
+// console.log(randomNumber);
 
 const checkButton = document.getElementById('checkButton');
 const guessedNumber = document.getElementById('guessedNumber');
